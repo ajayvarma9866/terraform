@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "devops9866-remote-state"
-    key    = "remote-state-demo"
+    key    = "expense-for-loop"
     region = "us-east-1"
     dynamodb_table = "devops9866-locking"
   }
